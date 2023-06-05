@@ -1,0 +1,19 @@
+
+
+body {
+    background-image: url("C:/users/molly/onedrive/img_0780.jpg");
+    background-size: cover;
+    background-position: center top 100px;
+    background-repeat: no-repeat;
+    
+  }
+  
+
+    h1 {
+        position: left;
+        font-family: "Courier New", monospace;
+        margin-left: 75px;
+        color: gray
+        
+      }
+ 
