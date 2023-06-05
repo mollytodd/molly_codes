@@ -1,19 +1,43 @@
-
-
-body {
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Courier New", monospace;
+    color: gray;
+  }
+  
+  .nav-links li {
+    margin-left: 10px;
+  }
+  
+  body {
     background-image: url("C:/users/molly/onedrive/img_0780.jpg");
     background-size: cover;
     background-position: center top 100px;
     background-repeat: no-repeat;
-    
   }
   
-
-    h1 {
-        position: left;
-        font-family: "Courier New", monospace;
-        margin-left: 75px;
-        color: gray
-        
-      }
- 
+  h1 {
+    position: left;
+    font-family: "Courier New", monospace;
+    margin-left: 75px;
+    font-size: 50px;
+    color: gray;
+  }
+  
+  p {
+    font-style: italic;
+    font-family: "Courier New", monospace;
+    font-size: 15px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    padding-right: 25px;
+    margin-top: 50px;
+    color: gray;
+  }
